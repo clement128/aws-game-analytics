@@ -32,7 +32,9 @@ GITHUB_USERNAME: "clement128"
 GITHUB_REPO_NAME: "aws-game-analytics"
 CONNECTION_ARN: "arn:aws:codeconnections:ap-northeast-1:980921745958:connection/eb573ef3-3b36-45bd-aa2f-ee607915e875"
 accounts:
-  - NAME: "Playground"
+  - NAME: "QA"
     ACCOUNT: "980921745958"
     REGION: "ap-northeast-1"
-  
+  - NAME: "PROD"
+    ACCOUNT: "980921745958"
+    REGION: "ap-northeast-1"
